@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando media querys</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 30px;
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+
+.box {
+  background: transparent;
+  perspective: 1000px;
+}
+
+.box__content {
+  background: transparent;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: transform 600ms ease-in-out;
+}
+
+.box__front,
+.box__back {
+  background: purple;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.box__back {
+  background: lightgreen;
+  transform: rotateY(180deg);
+}
+
+.box:hover .box__content {
+  transform: rotateY(180deg);
+}
+  
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box__content">
+          <div class="box__front">
+            <h1>Front</h1>
+          </div>
+      
+          <div class="box__back">
+            <h1>Back</h1>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
