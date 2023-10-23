@@ -1,0 +1,36 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Resertar Css*/
+body{
+    padding: 8px;
+}
+article{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    margin-top: 80px;
+}
+article{
+    background-color: black;
+    color: white;
+}
+span{
+    background-color: black;
+    color: white;  
+}
+
+article, span{
+    padding: 8px;
+    margin: 15px;
+    border-radius: 4px;
+}
+.green{
+    background-color:green;
+}
+.purple{
+    background-color: hsl(290, 100%, 84%);
+}

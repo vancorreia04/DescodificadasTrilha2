@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    padding: 8px;
+}
+/*  
+article{
+    display: flex;
+    width: 200px;
+}
+*/
+/* 
+article{
+    display: inline-block;
+    width: 200px;
+    justify-content: space-around;
+}
+*/
+/* 
+article{
+    display: grid;
+    margin-top: 100px;
+}
+*/
+article{
+    display: inline-grid;
+    grid-template-rows:colunm;
+}
+article span{
+    background-color: black;
+    color: white;
+}
+article, span{
+    padding: 8px;
+    margin: 1px;
+    border-radius: 4px;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: blueviolet;
+}
+    </style>
+</head>
+<body>
+    <article class="purple">
+<span>Primeiro</span>
+<span>Segundo</span>
+<span>Terceiro</span>
+    </article>
+    <article class="green">
+<span>A</span>
+<span>B</span>
+<span>C</span>
+    </article>
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+CSS Display
+Display é uma propriedade css
+Display: block
+Display :inline
+Display :inline-block
+Display: flex
+Display :grid
+Display :inline-grid
+
+
+Display:none
+
+Fora e dentro da caixa
+Block e inline(fora)
+Flex e grid (dentro)
+
+
+inline
+margin(top\bottom)
+width&height
+Não gera quebra de linha
+inline seguido de inline, ficam ao lado
+Tags
+a, span, i, strong, em ,b
+
+
+block
+width 100%
+margin (top\bottom)
+width&height
+Quebra de linha (antes e depois do lemento)
+Tags
+div, p, h1-h6, header,main, section, footer, aside, article
+
+flex
+desbloqueia propriedades para trabalhar com os elementos internos
+o elemento principal fica block
+
+
+inline-flex
+o elemento pai é inline, recebe propriedades block 
+e os filhos flex
+
+grid
+desbloqueia propriedades grid para trabalhar com os elementos internos
+o elemento principal fica block
+
+inline-grid
+o elemento pai é inline e o conteúdo se comporta como grid
+
+none
+remove o elemento da tela
+ruim para acessibilidade
+opção?
+visibility:hidden
