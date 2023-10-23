@@ -1,0 +1,38 @@
+.bloco-1{
+    height: 100px;
+    width: 100px;
+    order: 1;
+    background-color: aqua;
+    flex: auto;
+    align-self: flex-start;
+}
+.bloco-2{
+    height: 100px;
+    width: 100px;
+    order: 2;
+    background-color:rgb(207, 42, 207);
+   /* flex-basis: 100px;*/
+}
+.bloco-3{
+   height: 100px;
+   width: 100px;
+    order: 0;
+    background-color: rgb(189, 25, 25);
+    flex-grow: 0;
+   /* flex-basis: 200px;*/
+align-self: self-end;
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    background-color: rgba(241, 163, 61, 0.575);
+    padding: 16px;
+    height: 500px;
+}

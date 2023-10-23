@@ -1,0 +1,23 @@
+.stretch {
+    align-items: stretch;
+    }
+    .flex-start {
+    align-items: flex-start;
+    }
+    .flex-end {
+    align-items: flex-end;
+    }
+    .center {
+    align-items: center;
+    }
+    .baseline {
+    align-items: baseline;
+    }
+    /* Flex Container */
+    .container {
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+    }
+    

@@ -1,0 +1,27 @@
+body{
+    background-color: burlywood;
+}
+/*Flex-direction define eixo principal por padrão row(linha) */
+main{
+    width: 250px;
+    height: 250px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+    /*space-between:espaço entre os elementos*/
+}
+.bloco-1{
+    background-color: aqua;
+}
+.bloco-2{
+    background-color: blueviolet;
+}
+.bloco-3{
+    background-color: brown;
+}
